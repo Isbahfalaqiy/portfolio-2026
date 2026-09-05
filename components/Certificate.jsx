@@ -30,7 +30,7 @@ const certificates = [
   },
   {
     image: '/images/certificate/dicoding.jpg',
-    title: 'Programan Web Dasar',
+    title: 'Pemograman Web Dasar',
     issuer: 'Dicoding Indonesia',
     date: '2024',
     desc: 'Dasar pengembangan web responsif menggunakan HTML, CSS, dan JavaScript interaktif.',
