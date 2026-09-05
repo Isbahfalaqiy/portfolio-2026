@@ -13,7 +13,7 @@ const navItems = [
   { label: 'Home', href: '#home', icon: <AiFillHome size={16} /> },
   { label: 'About', href: '#about', icon: <AiOutlineUser size={16} /> },
   { label: 'Projects', href: '#projects', icon: <AiOutlineProject size={16} /> },
-  { label: 'Services', href: '#services', icon: <AiOutlineAppstore size={16} /> },
+  { label: 'Certificate', href: '#certificates', icon: <AiOutlineAppstore size={16} /> },
   { label: 'Contact', href: '#contact', icon: <AiOutlineMail size={16} /> },
 ]
 

@@ -1,33 +1,16 @@
 'use client'
 
 const projects = [
-  {
-    category: 'frontend',
-    image: '/images/projects/terkukuskukus.jpg',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    title: 'Landing Page Portfolio - Terkukuskukus',
-    desc: 'Modern responsive landing page project Terkukuskukus built with React and TailwindCSS.',
-    live: 'https://terkukuskukus.vercel.app/',
-    github: 'https://github.com/Isbahfalaqiy/Terkukuskukus',
-    status: 'Completed', // ✅ Added status
-  },
-  {
-    category: 'frontend',
-    image: '/images/projects/rempah.jpg',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    title: 'Landing Page Rempah-Rempah',
-    desc: 'Landing page for Rempah-Rempah project with responsive UI.',
-    live: 'https://webrempah-rempah.vercel.app/',
-    github: 'https://github.com/Isbahfalaqiy/webrempah-rempah',
-    status: 'Completed',
-  },
+  
+    
+  
   {
     category: 'frontend',
     image: '/images/projects/sdn05citayam.jpg',
     tags: ['React', 'Tailwind'],
     title: 'SDN 5 Citayam',
     desc: 'Landing page for SDN 5 Citayam school project.',
-    live: 'https://sdn-5-citayam.vercel.app/',
+    live: 'https://sdn-05-citayam.vercel.app/',
     github: 'https://github.com/Isbahfalaqiy/sdn-5-citayam',
     status: 'Completed',
   },
@@ -48,8 +31,8 @@ const projects = [
     tags: ['React', 'Tailwind'],
     title: 'storguard',
     desc: 'Landing page for storguard project.',
-    live: 'https://stock-guard-kappa.vercel.app/',
-    github: '#',
+    live: 'https://stor-guard.vercel.app/',
+    github: 'https://github.com/Isbahfalaqiy/StockGuard',
     status: 'Completed', // ⏳
   },
   {
@@ -60,7 +43,7 @@ const projects = [
     title: 'Navigasi UIN Jakarta',
     desc: 'Web app for navigation at UIN Jakarta.',
     live: 'https://navigasi-uinjkt.vercel.app/',
-    github: 'https://github.com/AWS-IGS/ChatBot',
+    github: 'https://github.com/Isbahfalaqiy/Navigasi-UINJKT',
     status: 'Completed',
   },
   {
@@ -70,9 +53,8 @@ const projects = [
     tags: ['Laravel', 'MySQL'],
     title: 'OBE Evaluation System',
     desc: 'System for evaluating CPL outcomes.',
-    live: '#',
-    github: '#',
-    status: 'In Progress',
+    live: 'https://layanan-obe.uinjakarta.id/',
+    status: 'Completed',
   },
   {
     category: 'AWSResearchAI',
@@ -81,9 +63,7 @@ const projects = [
     tags: ['Laravel', 'MySQL'],
     title: 'AWS Research AI',
     desc: 'AI-powered research assistant for academic research.',
-    live: '#',
-    github: '#',
-    status: 'In Progress',
+    status: 'Completed',
   },
   {
     category: 'fullstack',
@@ -93,8 +73,8 @@ const projects = [
     title: 'Web-Kost Booking System',
     desc: 'Fullstack app for booking boarding houses.',
     live: '#',
-    github: '#',
-    status: 'In Progress',
+    github: 'https://github.com/Isbahfalaqiy/web-kost',
+    status: 'Completed',
   },
 ]
 
@@ -172,14 +152,16 @@ export default function Projects() {
                   >
                     View Live →
                   </a>
-                  <a
-                    href={p.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline transition group-hover:text-white"
-                  >
-                    GitHub ↗
-                  </a>
+                  {p.github && (
+             <a
+              href={p.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline transition group-hover:text-white"
+            >
+              GitHub ↗
+            </a>
+          )}
                 </div>
 
               </div>
