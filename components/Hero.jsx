@@ -59,7 +59,9 @@ export default function Hero() {
             </a>
 
             <a
-              href="/"
+              href="cv/cvisbah.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-3 rounded-full border border-gray-300 text-sm font-medium hover:bg-gray-100 hover:-translate-y-1 transition"
             >
               Download CV
