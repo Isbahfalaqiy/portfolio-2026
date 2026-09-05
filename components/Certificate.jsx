@@ -30,7 +30,7 @@ const certificates = [
   },
   {
     image: '/images/certificate/dicoding.jpg',
-    title: 'Fullstack Web Developer',
+    title: 'Programan Web Dasar',
     issuer: 'Dicoding Indonesia',
     date: '2024',
     desc: 'Dasar pengembangan web responsif menggunakan HTML, CSS, dan JavaScript interaktif.',
