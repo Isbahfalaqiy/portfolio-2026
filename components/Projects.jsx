@@ -21,7 +21,7 @@ const projects = [
     title: 'GoFitMeal',
     desc: 'Landing page for GoFitMeal service.',
     live: 'https://gofitmeal.vercel.app/',
-    github: '#',
+    github: 'https://github.com/Isbahfalaqiy/GitFitMeal',
     status: 'Completed',
   },
   {
@@ -72,7 +72,7 @@ const projects = [
     tags: ['Laravel', 'REST API'],
     title: 'Web-Kost Booking System',
     desc: 'Fullstack app for booking boarding houses.',
-    live: '#',
+    live: 'https://web-kost-yuk.my.id/',
     github: 'https://github.com/Isbahfalaqiy/web-kost',
     status: 'Completed',
   },
